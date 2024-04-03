@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Hire Rishabh Gupta | Freelancer</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Allura|Monsieur+La+Doulaise" rel="stylesheet">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
+  <body>
+    <header id="header">
+        <nav id="nav-bar">
+          <ul class="nav">
+            <li class="img"><a href="#header"><img src="./images/Logo.png" alt="UBlog Logo" id="header-img"></a></li>
+
+            <li class="nav-link"><a href="#header">Home</a></li>
+            <li class="nav-link"><a href="https://github.com/rishabhgupta2004">GitHub</a></li>
+            <li class="nav-link"><a href="https://rishabhgupta2004.github.io/portfolio/">Portfolio</a></li>
+            <li class="nav-link"><a href="#header">Testimonials</a></li>
+            <li class="nav-link"><a href="#header">About Me</a></li>
+            <li class="nav-link"><a href="#form">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="hero">
+          <div class="intro">
+            <h1>Hire <span id="boost">Freelancer</span></h1>
+            <p>If you need professional services like <b>web development</b> or <b>graphic design</b>, look no further. I'm <b>Rishabh Gupta</b>.</p>
+            <button id="course-button">Hire Me Now</button>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="how">
+          <h2>How can I help you?</h2>
+          <div class="container">
+            <div id="Course">
+              <a href="https://rishabhgupta2004.github.io/portfolio/">
+              <i class='bx bx-laptop' ></i>
+              <h3 class="item">Portfolio</h3>
+              <p class="info">I offer web development and graphic design services tailored to your needs.</p>
+              </a>
+            </div>
+            <div id="Consult">
+              <a href="https://www.linkedin.com/in/rishabh-gupta2004/">
+              <i class='bx bxl-linkedin-square'></i>
+              <h3 class="item">LinkedIn</h3>
+              <p class="info">I provide consulting services to guide you through your project.</p>
+            </a>
+            </div>
+          
+            <div id="Social">
+              <a href="https://github.com/rishabhgupta2004">
+              <i class="fab fa-github"></i>
+              <h3 class="item">GitHub</h3>
+              
+              <p class="info">Join our online community to interact, connect, and collaborate.</p>
+              </a>
+            </div>
+          </div>
+        <div class="contact">
+          <h3 class="intouch">Want to get in touch with me?</h3>
+          <form id="form" class="contact-form" action="https://www.linkedin.com/in/rishabh-gupta2004/" method="POST">
+            <table>
+              <tr>
+                <td id="tlabel">
+                  <label for="Name" id="name-label">* Name:</label>
+                </td>
+                <td id="tanswer">
+                  <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </td>
+              </tr>
+              <tr>
+                <td id="tlabel">
+                  <label for="email" id="email-label">* Email:</label>
+                </td>
+                <td id="tanswer">
+                  <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                </td>
+              </tr>
+              <tr>
+                <td id="tlabel">
+                  <label for="message">* Message:</label>
+                </td>
+                <td>
+                  <textarea name="message" id="tanswer" rows="4"  placeholder="Enter your message" required></textarea>
+                </td>
+              </tr>
+            </table>
+            <button type="submit" id="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    <footer>
+      <h4 class="foot">© 2024 Rishabh Gupta. All rights reserved.</h4>
+    </footer>
+    
+    <script>
+      function classToggle() {
+        const navs = document.querySelectorAll('.nav-link')
+        navs.forEach(nav => nav.classList.toggle('show'));
+      }
+
+      document.querySelector('.img').addEventListener('click', classToggle);
+    </script>
+  </body>
+</html>

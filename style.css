@@ -469,8 +469,9 @@ html {
 /* Media query for even smaller screens */
 @media screen and (max-width: 576px) {
     .img {
-        top: 10px; /* Adjust top position for even smaller screens */
+        top: 4px; /* Adjust top position for even smaller screens */
         left: 10px; /* Adjust left position for even smaller screens */
+
     }
 }
 
